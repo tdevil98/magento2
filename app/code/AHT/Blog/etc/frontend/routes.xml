@@ -2,8 +2,9 @@
 
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:App/etc/routes.xsd">
    <router id="standard">
-       <route id="aht_blog" frontName="aht_blog">
+       <route id="blog" frontName="blog">
            <module name="AHT_Blog" />
        </route>
    </router>
 </config>
+

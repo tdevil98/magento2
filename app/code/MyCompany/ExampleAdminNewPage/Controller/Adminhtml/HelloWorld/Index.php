@@ -2,9 +2,7 @@
 
 namespace MyCompany\ExampleAdminNewPage\Controller\Adminhtml\HelloWorld;
 
-use Magento\Backend\App\Action;
-
-class Index extends Magento\Backend\App\Action
+class Index extends \Magento\Backend\App\Action
 {
     /**
      * @var \Magento\Framework\View\Result\PageFactory
@@ -32,7 +30,7 @@ class Index extends Magento\Backend\App\Action
      *
      * @return \Magento\Framework\View\Result\Page
      */
-    public function excute(){
+    public function execute(){
         return $resultPage = $this->resultPageFactory->create();
     }
 }
