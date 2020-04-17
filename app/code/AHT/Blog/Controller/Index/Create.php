@@ -1,7 +1,7 @@
 <?php
 namespace AHT\Blog\Controller\Index;
 
-class Index extends \Magento\Framework\App\Action\Action
+class Create extends \Magento\Framework\App\Action\Action
 {
     protected $_pageFactory;
 
